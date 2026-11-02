@@ -490,7 +490,7 @@ dependencies = [
 
 [[package]]
 name = "oxiguitar-audio-wasapi-plugin"
-version = "1.0.0"
+version = "0.1.0"
 dependencies = [
  "cpal",
  "oxiguitar-audio-cpal",
