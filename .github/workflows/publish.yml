@@ -23,6 +23,7 @@ jobs:
     with:
       name: wasapi
       tag: ${{ inputs.tag }}
+      systems: windows
       winget-id: mateusrdp.OxiGuitar.WASAPI
       tools-ref: 99722a630b8bf1d886f74281e092c2399cd38a18
     secrets: inherit
