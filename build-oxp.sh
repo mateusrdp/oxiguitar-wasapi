@@ -6,7 +6,7 @@
 #
 #   dist/audio-wasapi-VERSION-SYSTEM-ARCH.oxp
 #
-# such as dist/audio-wasapi-1.0.0-windows-x86_64.oxp, named the way OxiGuitar's plugins
+# such as dist/audio-wasapi-0.1.0-windows-x86_64.oxp, named the way OxiGuitar's plugins
 # are (docs/plugins/template in github.com/mateusrdp/oxiguitar). This plugin is for Windows only (its manifest says so): run it from Git Bash.
 # .github/workflows/release.yml runs it.
 
