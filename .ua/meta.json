@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-07T20:03:22.055Z",
+  "gitCommit": "89988a7b6905bec6ac8363b021e88392eee6b068",
+  "projectRoot": "/home/mat/Documents/src/oxiguitar-wasapi",
+  "stats": {
+    "totalNodes": 20,
+    "totalEdges": 23,
+    "totalLayers": 6,
+    "totalTourSteps": 7,
+    "nodesByType": {
+      "pipeline": 3,
+      "document": 5,
+      "config": 6,
+      "file": 4,
+      "class": 1,
+      "function": 1
+    },
+    "edgesByType": {
+      "depends_on": 5,
+      "configures": 4,
+      "related": 2,
+      "documents": 9,
+      "contains": 2,
+      "tested_by": 1
+    },
+    "filesScanned": 22,
+    "languages": [
+      "yaml",
+      "markdown",
+      "json",
+      "toml",
+      "shell",
+      "rust"
+    ],
+    "complexity": "small"
+  },
+  "fingerprints": {
+    "totalFiles": 18,
+    "contentHashes": 18,
+    "structureHashes": 2,
+    "baselineCommit": "89988a7b6905bec6ac8363b021e88392eee6b068"
+  },
+  "scanResultDigest": "10fa3ad1ec202ce896f88f27df16ff5a358008436be14a7e2cafc0dcb5144c58"
+}
