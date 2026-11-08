@@ -1,0 +1,271 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "89988a7b6905bec6ac8363b021e88392eee6b068",
+  "generatedAt": "2026-11-07T20:03:55.430Z",
+  "files": {
+    ".github/dependabot.yml": {
+      "filePath": ".github/dependabot.yml",
+      "contentHash": "1d177c4b52c244956069a6269ed50492bb649dcaebb1a1b1ef9d610835eeb2d3",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 25,
+      "hasStructuralAnalysis": false
+    },
+    ".github/pull_request_template.md": {
+      "filePath": ".github/pull_request_template.md",
+      "contentHash": "2725627b502bd9a41e49fa5324897c4c507ae2dc69a726057c974456140b6213",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 16,
+      "hasStructuralAnalysis": false
+    },
+    ".github/workflows/ci.yml": {
+      "filePath": ".github/workflows/ci.yml",
+      "contentHash": "147a2717a8b17c4cfc8241873ff15bb5ba4a284c43756059bc4bd251c1e3d195",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 175,
+      "hasStructuralAnalysis": false
+    },
+    ".github/workflows/publish.yml": {
+      "filePath": ".github/workflows/publish.yml",
+      "contentHash": "4d297e1c210b94a3fb4e8975849e7aa96f0c5cdeb49f4bff2de77fb34c960caf",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 30,
+      "hasStructuralAnalysis": false
+    },
+    ".github/workflows/release.yml": {
+      "filePath": ".github/workflows/release.yml",
+      "contentHash": "23c4a176da2f9000ddebc7468d18f4814e716ba7e297d7a98bdf99a8f49fab0a",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 40,
+      "hasStructuralAnalysis": false
+    },
+    "CHANGELOG.md": {
+      "filePath": "CHANGELOG.md",
+      "contentHash": "1ab457e6b3b4211d1ad98fb90fb33fb539f507a805790281a6f6efe89b44b629",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 27,
+      "hasStructuralAnalysis": false
+    },
+    "CLAUDE.md": {
+      "filePath": "CLAUDE.md",
+      "contentHash": "319d371e433bb6301711952cdc985aa2bb8ee5bc87a5a58e8a61a526e69f18af",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 34,
+      "hasStructuralAnalysis": false
+    },
+    "CONTRIBUTING.md": {
+      "filePath": "CONTRIBUTING.md",
+      "contentHash": "8b0dae36fb3eefeec818e6387b520cf9078a6e9d093172de7c74ec539f3a0f78",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 43,
+      "hasStructuralAnalysis": false
+    },
+    "Cargo.toml": {
+      "filePath": "Cargo.toml",
+      "contentHash": "6ab839ee239bc30f8de0c051267ad62a677b27251dad5ec786f4e9efcb99bc26",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 62,
+      "hasStructuralAnalysis": false
+    },
+    "README.md": {
+      "filePath": "README.md",
+      "contentHash": "9db0d6ed07fb935f0446ead22029725b581101b407fb1532d7f839beb78e1238",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 29,
+      "hasStructuralAnalysis": false
+    },
+    "build-oxp.sh": {
+      "filePath": "build-oxp.sh",
+      "contentHash": "485831558a6fab907d3f0e2105cc8c7f4e48f08c3ff902c99525eba6abc30929",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 44,
+      "hasStructuralAnalysis": false
+    },
+    "clippy.toml": {
+      "filePath": "clippy.toml",
+      "contentHash": "f47870687bec93d43189402220733f9f496cb22ec33914d2c35c4dc65c3ffa11",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 6,
+      "hasStructuralAnalysis": false
+    },
+    "deny.toml": {
+      "filePath": "deny.toml",
+      "contentHash": "e3533f4749ad3b5cc1868bf4a1ac96a33af22c34c142249de95883fda9e27bd7",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 65,
+      "hasStructuralAnalysis": false
+    },
+    "manifest.json": {
+      "filePath": "manifest.json",
+      "contentHash": "826c1fcf7bcc30d482fcfbe527e0067fcf8d7bab107f4d3dc42f6ee0cf548005",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 26,
+      "hasStructuralAnalysis": false
+    },
+    "rustfmt.toml": {
+      "filePath": "rustfmt.toml",
+      "contentHash": "d461d42d0e324e3bd489a46e068794c0358a9f542c90495ed15ee2e581cb66ad",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": false
+    },
+    "scripts/check-dco.sh": {
+      "filePath": "scripts/check-dco.sh",
+      "contentHash": "09c2fc940f2e61ebbfe8f266bcbcb8c1aafd454ea078a1288566a0465a27570d",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 71,
+      "hasStructuralAnalysis": false
+    },
+    "src/lib.rs": {
+      "filePath": "src/lib.rs",
+      "contentHash": "917d6e9fb461447e4b38210b6aa0661532a628e96965545e347178153c32ea0c",
+      "functions": [
+        {
+          "name": "start",
+          "owner": null,
+          "params": [
+            "host"
+          ],
+          "returnType": "Result<Audio, Error>",
+          "exported": false,
+          "lineCount": 8
+        },
+        {
+          "name": "service",
+          "owner": null,
+          "params": [
+            "interface",
+            "id"
+          ],
+          "returnType": "Option<&dyn Service>",
+          "exported": false,
+          "lineCount": 3
+        },
+        {
+          "name": "probe",
+          "owner": null,
+          "params": [],
+          "returnType": "Availability",
+          "exported": false,
+          "lineCount": 6
+        },
+        {
+          "name": "call",
+          "owner": null,
+          "params": [
+            "method",
+            "input"
+          ],
+          "returnType": "Result<Vec<u8>, Error>",
+          "exported": false,
+          "lineCount": 12
+        }
+      ],
+      "classes": [
+        {
+          "name": "Audio",
+          "methods": [
+            "start",
+            "service",
+            "probe",
+            "call"
+          ],
+          "properties": [
+            "device"
+          ],
+          "exported": true,
+          "lineCount": 4
+        }
+      ],
+      "imports": [
+        {
+          "source": "oxiguitar_plugin",
+          "specifiers": [
+            "Availability",
+            "Error",
+            "Host",
+            "Plugin",
+            "Service"
+          ]
+        }
+      ],
+      "exports": [
+        "Audio"
+      ],
+      "totalLines": 57,
+      "hasStructuralAnalysis": true
+    },
+    "tests/contract.rs": {
+      "filePath": "tests/contract.rs",
+      "contentHash": "4a4a55e6450460b1fe0dccde2c3b9f5220c5d1a7607cc4f86ce20ec8769dd6f7",
+      "functions": [
+        {
+          "name": "the_plugin_file_keeps_the_contract",
+          "owner": "",
+          "params": [],
+          "exported": false,
+          "lineCount": 12
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "std::path",
+          "specifiers": [
+            "Path"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 27,
+      "hasStructuralAnalysis": true
+    }
+  }
+}
