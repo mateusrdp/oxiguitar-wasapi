@@ -5,7 +5,7 @@ The WASAPI audio output plugin for [OxiGuitar](https://github.com/mateusrdp/oxig
 In plain words: OxiGuitar works out the sound, and an output plugin hands it to the operating system's sound system on time, batch after batch. Every system has its own sound system, so each gets its own plugin. The [manual](https://mateusrdp.github.io/oxiguitar-wasapi/) explains latency and buffers.
 
 - Plugin file `audio-wasapi.oxp`, id `oxiguitar.audio-wasapi`, Windows only (x86_64 and ARM64).
-- It shares its code with the other outputs, oxiguitar-pipewire, oxiguitar-alsa and oxiguitar-coreaudio: a stream on one of cpal's hosts, in `oxiguitar-audio-cpal`, which lives in the OxiGuitar repository and is tagged with the SDK.
+- It shares its code with the other outputs, oxiguitar-pipewire, oxiguitar-alsa and oxiguitar-coreaudio: a stream on one of cpal's hosts, in [oxiguitar-audio-cpal](https://github.com/mateusrdp/oxiguitar-audio-cpal), which this plugin depends on by tag.
 - It plays sound only on your machine: it uploads and downloads nothing.
 
 ## Manual
@@ -18,7 +18,7 @@ Every [release](https://github.com/mateusrdp/oxiguitar-wasapi/releases) holds a 
 
 ## Build and test
 
-Rust 1.99 or later from [rustup](https://rustup.rs). The plugin SDK comes from OxiGuitar's repository by git tag (`v0.11.0`); nothing of OxiGuitar's is on crates.io.
+Rust 1.99 or later from [rustup](https://rustup.rs). The plugin SDK (`v0.11.0`) and the shared audio layer, [oxiguitar-audio-cpal](https://github.com/mateusrdp/oxiguitar-audio-cpal) (`v0.1.0`), come from their repositories by git tag; nothing of OxiGuitar's is on crates.io. The SDK tag must be the one oxiguitar-audio-cpal itself uses, so the two tags and cpal's version move together, the audio layer first. After moving any of them, run `cargo update -p oxiguitar-audio-cpal -p cpal` and commit `Cargo.lock`. `deny.toml` allows both git sources. What a repository that depends on the audio layer must do is on its [How to use it](https://mateusrdp.github.io/oxiguitar-audio-cpal/use-cases.html) page.
 
 ```sh
 cargo test          # unit tests, and the contract suite on the built .oxp file
