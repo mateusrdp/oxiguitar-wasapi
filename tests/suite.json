@@ -1,0 +1,16 @@
+{
+  "repository": "mateusrdp/oxiguitar-wasapi",
+  "os": [
+    "windows"
+  ],
+  "plugins": [
+    {
+      "name": "audio-wasapi",
+      "package": "oxiguitar-audio-wasapi-plugin",
+      "library": "oxiguitar_audio_wasapi_plugin",
+      "os": [
+        "windows"
+      ]
+    }
+  ]
+}
