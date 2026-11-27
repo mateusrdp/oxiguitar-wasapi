@@ -14,7 +14,7 @@ The manual is at <https://mateusrdp.github.io/oxiguitar-wasapi/>. Its source is 
 
 ## Install
 
-Every [release](https://github.com/mateusrdp/oxiguitar-wasapi/releases) holds a zip per Windows processor (x86_64 and ARM64), a per-user installer (no administrator needed) for each, and a `SHA256SUMS` file. The [manual's install page](https://mateusrdp.github.io/oxiguitar-wasapi/install.html) says which one to use and how to keep it updated. The plugin needs OxiGuitar 0.11 or later (plugin interface 1.4).
+Every [release](https://github.com/mateusrdp/oxiguitar-wasapi/releases) holds a zip per Windows processor (x86_64 and ARM64), a per-user installer (no administrator needed) for each, and a `SHA256SUMS` file. The [manual's install page](https://mateusrdp.github.io/oxiguitar-wasapi/install.html) says which one to use and how to keep it updated. The plugin needs OxiGuitar 0.23 or later, which reads plugin files as archives (the plugin asks for interface 1.3).
 
 ## Build and test
 
